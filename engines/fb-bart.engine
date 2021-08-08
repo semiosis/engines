@@ -1,5 +1,5 @@
 title: FB Bart Large CNN
 lm-command: "hf-complete.sh"
-engine: facebook/bart-large-cnn
+model: facebook/bart-large-cnn
 modes:
 - summarize
