@@ -1,6 +1,6 @@
-* Prompts
+* engines
 This is a free and open-source (FOSS) curation
-of LM models and their tasks.
+of LM models and their capabilities.
 
 | License | Discord server invite       |
 |---------+-----------------------------|
