@@ -1,0 +1,7 @@
+* Prompts
+This is a free and open-source (FOSS) curation
+of LM models and their tasks.
+
+| License | Discord server invite       |
+|---------+-----------------------------|
+| =GPL-3= | https://discord.gg/6wP4MwCM |
