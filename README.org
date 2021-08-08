@@ -5,3 +5,8 @@ of LM models and their capabilities.
 | License | Discord server invite       |
 |---------+-----------------------------|
 | =GPL-3= | https://discord.gg/6wP4MwCM |
+
+
+| Key    | Description |
+|--------+-------------|
+| =mode= | A           |
