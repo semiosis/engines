@@ -1,0 +1,5 @@
+title: OpenAI Davinci
+lm-command: "openai-complete.sh"
+engine: davinci
+hypertasks:
+- summarize
