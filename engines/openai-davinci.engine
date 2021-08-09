@@ -2,3 +2,5 @@ title: OpenAI Davinci
 lm-command: "openai-complete.sh"
 model: davinci
 # modes search?
+min-tokens: 64
+max-tokens: 2048
