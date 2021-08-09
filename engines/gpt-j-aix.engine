@@ -1,9 +1,6 @@
 title: AIx GPT-J-6B
-# Not yet ready
-needs-work: true
-lm-command: "gpt-j-complete.sh"
-# This is the locally running GPT-J model
-# model: davinci
+lm-command: "aix-complete.sh"
+model: davinci
 # min-tokens: 64 ?
 default-tokens: 512
 # max-tokens: 2048 ?
