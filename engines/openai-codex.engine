@@ -1,6 +1,6 @@
 title: OpenAI Codex
 lm-command: "openai-complete.sh"
-model: codex
+model: davinci-codex
 # modes search?
 min-tokens: 64
-max-tokens: 2048
+max-tokens: 10000
