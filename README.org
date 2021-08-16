@@ -10,5 +10,9 @@ See the =prompts= repo for detailed documentation.
 
 http://github.com/semiosis/prompts
 
-Specifying an engine means that you don't have to specify the parameters contained by that engine
-Typically, the engine specifies the model and the lm-command
+Specifying an engine in a =.prompt= means that
+you don't have to specify the parameters
+contained by that engine
+
+Typically, the engine specifies the =model=
+and the =lm-command=.
