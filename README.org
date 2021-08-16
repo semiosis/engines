@@ -6,7 +6,9 @@ of LM models and their capabilities.
 |---------+-----------------------------|
 | =GPL-3= | https://discord.gg/6wP4MwCM |
 
+See the =prompts= repo for detailed documentation.
 
-| Key    | Description |
-|--------+-------------|
-| =mode= | A           |
+http://github.com/semiosis/prompts
+
+Specifying an engine means that you don't have to specify the parameters contained by that engine
+Typically, the engine specifies the model and the lm-command
