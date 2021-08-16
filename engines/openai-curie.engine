@@ -1,4 +1,4 @@
-include: OpenAI Davinci
 title: OpenAI Curie
+include: OpenAI Davinci
 lm-command: "openai-complete.sh"
 model: curie
