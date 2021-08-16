@@ -4,6 +4,6 @@ needs-work: true
 lm-command: "gpt-j-complete.sh"
 # This is the locally running GPT-J model
 # model: davinci
-# min-tokens: 64 ?
+# engine-min-tokens: 64 ?
 default-tokens: 512
-# max-tokens: 2048 ?
+# engine-max-tokens: 2048 ?

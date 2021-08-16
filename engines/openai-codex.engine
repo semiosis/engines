@@ -6,5 +6,5 @@ modes:
 - classification
 specialities:
 - code
-min-tokens: 64
-max-tokens: 1000
+engine-min-tokens: 64
+engine-max-tokens: 1000
