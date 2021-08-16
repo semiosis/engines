@@ -16,3 +16,8 @@ contained by that engine
 
 Typically, the engine specifies the =model=
 and the =lm-command=.
+
+An engine may also load another engine as a
+template. This is done by supplying the
+=include= key with the title of another
+=engine=.
