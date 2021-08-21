@@ -1,4 +1,4 @@
-title: OpenAI Davinci
+engine-title: OpenAI Davinci
 lm-command: "openai-complete.sh"
 model: davinci
 # modes search?

@@ -1,4 +1,4 @@
-title: OpenAI Codex
+engine-title: OpenAI Codex
 lm-command: "openai-complete.sh"
 model: davinci-codex
 modes:

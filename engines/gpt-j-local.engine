@@ -1,4 +1,4 @@
-title: local GPT-J-6B slim
+engine-title: local GPT-J-6B slim
 # Not yet ready
 needs-work: true
 lm-command: "gpt-j-complete.sh"

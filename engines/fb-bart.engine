@@ -1,4 +1,4 @@
-title: FB Bart Large CNN
+engine-title: FB Bart Large CNN
 lm-command: "hf-complete.sh"
 model: facebook/bart-large-cnn
 modes:
