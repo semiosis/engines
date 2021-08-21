@@ -1,6 +1,7 @@
 engine-title: OpenAI Codex
 lm-command: "openai-complete.sh"
 model: davinci-codex
+foundation: true
 modes:
 - search
 - classification
