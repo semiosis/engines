@@ -22,5 +22,8 @@ template. This is done by supplying the
 =include= key with the title of another
 =engine=.
 
+* Terminology
++ foundation :: This means that a model is generalised and capable of many tasks via prompting.
+
 * Resources
 + Foundation models :: https://arxiv.org/abs/2108.07258
