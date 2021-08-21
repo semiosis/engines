@@ -1,4 +1,4 @@
-* engines
+* Engines
 This is a free and open-source (FOSS) curation
 of LM models and their capabilities.
 
