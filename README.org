@@ -21,3 +21,6 @@ An engine may also load another engine as a
 template. This is done by supplying the
 =include= key with the title of another
 =engine=.
+
+* Resources
++ Foundation models :: https://arxiv.org/abs/2108.07258
