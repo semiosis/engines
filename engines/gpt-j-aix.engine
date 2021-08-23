@@ -5,3 +5,4 @@ engine-min-tokens: 64
 engine-max-tokens: 2048
 default-tokens: 512
 foundation: true
+libre: no

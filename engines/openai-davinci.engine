@@ -5,3 +5,4 @@ foundation: true
 # modes search?
 engine-min-tokens: 64
 engine-max-tokens: 2048
+libre: no

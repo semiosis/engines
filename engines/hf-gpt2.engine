@@ -1,0 +1,6 @@
+engine-title: HuggingFace GPT-2
+lm-command: "hf-complete.sh"
+model: gpt2
+# That's a stretch haha
+foundation: true
+libre: true
