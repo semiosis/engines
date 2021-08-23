@@ -8,4 +8,4 @@ modes:
 specialities:
 - code
 engine-min-tokens: 64
-engine-max-tokens: 1000
+engine-max-tokens: 2000
