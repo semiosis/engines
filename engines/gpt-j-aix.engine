@@ -2,6 +2,6 @@ engine-title: AIx GPT-J-6B
 lm-command: "aix-complete.sh"
 model: GPT-J-6B
 engine-min-tokens: 64
-default-tokens: 512
 engine-max-tokens: 2048
+default-tokens: 512
 foundation: true
