@@ -11,6 +11,6 @@ engine-min-tokens: 64
 # 20k?
 engine-whitespace-support: yes
 engine-max-tokens: 2000
-libre-dataset: yes
-libre-model: yes
+libre-dataset: no
+libre-model: no
 local: no
