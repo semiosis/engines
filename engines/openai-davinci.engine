@@ -1,8 +1,12 @@
-title-engine: OpenAI Davinci
+engine-title: OpenAI Davinci
 lm-command: "openai-complete.sh"
 model: davinci
 foundation: true
 # modes search?
 engine-min-tokens: 64
 engine-max-tokens: 2048
-libre: no
+engine-whitespace-support: no
+engine-max-tokens: 2000
+libre-dataset: no
+libre-model: no
+local: no

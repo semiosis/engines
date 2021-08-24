@@ -8,3 +8,6 @@ lm-command: "gpt-j-complete.sh"
 default-tokens: 512
 # engine-max-tokens: 2048 ?
 foundation: true
+libre-dataset: yes
+libre-model: yes
+local: yes

@@ -6,5 +6,8 @@ default-tokens: 256
 engine-max-n-completions: 16
 engine-max-tokens: 2048
 engine-max-generated-tokens: 256
+engine-whitespace-support: yes
 foundation: true
-libre: no
+libre-dataset: no
+libre-model: no
+local: no
