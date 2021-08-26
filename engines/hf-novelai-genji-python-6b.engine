@@ -1,5 +1,5 @@
 # https://api-inference.huggingface.co/docs/python/html/quicktour.html#using-large-models-10-go
-engine-title: NovelAI Genji Python 6B
+engine-title: HF NovelAI Genji Python 6B
 include: HuggingFace
 engine-doc: |+
   Genji is a transformer model finetuned on
