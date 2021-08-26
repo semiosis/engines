@@ -12,3 +12,5 @@ libre-model: no
 local: no
 downstream-engines:
 - OpenAI Codex
+- OpenAI Babbage
+- OpenAI Curie
