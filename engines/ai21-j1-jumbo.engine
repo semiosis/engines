@@ -1,5 +1,5 @@
 engine-title: AI21 J1-Jumbo
-lm-command: "ai21-complete.sh"
+include: AI21
 model: j1-jumbo
 # engine-min-tokens: 64 ?
 default-tokens: 256

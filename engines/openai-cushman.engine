@@ -1,18 +1,14 @@
-engine-title: OpenAI Codex
+engine-title: OpenAI Cushman
 include: OpenAI
-model: davinci-codex
+model: davinci-cushman
 foundation: true
-# For the API
 modes:
 - search
 - classification
-# 'layers' is like 'provides'
-layers:
-- foundation
-- nl
+specialities:
 - code
-# may also put finetuning labels
-# - python
+provides:
+- code
 engine-min-tokens: 0
 engine-whitespace-support: yes
 engine-max-tokens: 4096

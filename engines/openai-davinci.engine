@@ -1,9 +1,6 @@
 engine-title: OpenAI Davinci
 include: OpenAI
 model: davinci
-# I can specify 'foundation: true' while most definable
-# tasks can be performed by the model.
-# That may change in future.
 foundation: true
 # modes search?
 # finetuned (extra training)
