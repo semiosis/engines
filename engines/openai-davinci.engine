@@ -6,13 +6,14 @@ foundation: true
 engine-min-tokens: 64
 engine-max-tokens: 2048
 engine-whitespace-support: no
-engine-max-tokens: 2000
 libre-dataset: no
 libre-model: no
 local: no
+# finetuned (extra training)
 downstream-engines:
 - OpenAI Codex
 - OpenAI Davinci Instruct
+# fewer parameters (less training)
 lighter-engines:
 - OpenAI Curie
 - OpenAI Babbage
