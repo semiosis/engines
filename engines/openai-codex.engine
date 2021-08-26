@@ -7,10 +7,9 @@ modes:
 - classification
 specialities:
 - code
-engine-min-tokens: 64
-# 20k?
+engine-min-tokens: 0
 engine-whitespace-support: yes
-engine-max-tokens: 2000
+engine-max-tokens: 4096
 libre-dataset: no
 libre-model: no
 local: no

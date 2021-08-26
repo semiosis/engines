@@ -8,9 +8,8 @@ modes:
 specialities:
 - code
 engine-min-tokens: 64
-# 20k?
 engine-whitespace-support: yes
-engine-max-tokens: 2000
+engine-max-tokens: 1000
 libre-dataset: no
 libre-model: no
 local: no
