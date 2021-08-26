@@ -13,3 +13,4 @@ defer:
 - nl: OpenAI Davinci
 - nl-task: OpenAI Instruct
 - speed: OpenAI Curie
+fallback: AI21

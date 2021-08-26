@@ -24,3 +24,4 @@ libre-dataset: no
 libre-model: no
 local: no
 upstream-engine: OpenAI Davinci
+fallback: OpenAI Davinci

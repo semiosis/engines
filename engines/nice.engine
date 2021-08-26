@@ -1,4 +1,0 @@
-vendor: various vendors
-defer:
-- code: OpenAI Codex
-- speed: OpenAI Curie
