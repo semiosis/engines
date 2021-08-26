@@ -6,12 +6,16 @@ foundation: true
 modes:
 - search
 - classification
-# 'layers' is like 'provides'
+# 'layers' is like 'provides'. see glossary
 layers:
 - foundation
 - nl
 - code
-# may also put finetuning labels
+# Pick this engine when you need 'just' NL ∩ Code
+speciality:
+- nl
+- code
+# e.g. may also put finetuning labels at the end
 # - python
 engine-min-tokens: 0
 engine-whitespace-support: yes

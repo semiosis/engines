@@ -5,9 +5,12 @@ foundation: true
 modes:
 - search
 - classification
-specialities:
+# Pick when you want 'just' Code
+# Therefore, it would override Codex when nl
+# is not required
+speciality:
 - code
-provides:
+layers:
 - code
 engine-min-tokens: 0
 engine-whitespace-support: yes

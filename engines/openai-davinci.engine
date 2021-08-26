@@ -2,8 +2,7 @@ engine-title: OpenAI Davinci
 include: OpenAI
 model: davinci
 foundation: true
-# modes search?
-# finetuned (extra training)
+# downstream-engines usually means finetuned (extra training)
 downstream-engines:
 - OpenAI Codex
 - OpenAI Davinci Instruct

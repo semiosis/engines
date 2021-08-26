@@ -25,5 +25,17 @@ template. This is done by supplying the
 * Terminology
 + foundation :: This means that a model is generalised and capable of many tasks via prompting.
 
+[[./glossary.txt]]
+
++ downstream-engines: Usually means finetuned (extra training).
+
+* Philosophy
+- When defining attributes of engines it's
+  important to not value preciseness over
+  pragmatism. For example, I have specified
+  "foundation, nl, code" for codex as if it had
+  an independent training step for NL on top of the
+  foundation model, which it did not.
+
 * Resources
 + Foundation models :: https://arxiv.org/abs/2108.07258
