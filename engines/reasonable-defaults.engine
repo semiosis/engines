@@ -1,10 +1,10 @@
 engine-title: Reasonable defaults
 engine-doc: |+
   This is not intended to be hard preference
-  for Pen.el so as to always control which
-  engines are used for prompts. Rather, it's a
-  good go-to that a prompt may specify, along
-  with a set of requirements.
+  for Pen.el that always delegates engines to
+  prompts. Rather, it's a good go-to that a
+  prompt may specify, along with a set of
+  requirements.
 vendor: various vendors
 # Select the first which satisfies the requirements
 family:
