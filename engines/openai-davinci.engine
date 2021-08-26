@@ -13,6 +13,7 @@ local: no
 downstream-engines:
 - OpenAI Codex
 - OpenAI Davinci Instruct
-faster-engines:
+lighter-engines:
 - OpenAI Curie
 - OpenAI Babbage
+- OpenAI Ada
