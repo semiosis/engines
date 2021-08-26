@@ -1,0 +1,18 @@
+# So long as either lm-command or model is not yet defined,
+# an engine should be proto. This isn't automatic yet.
+proto: true
+vendor: OpenAI
+# These are just defaults
+engine-title: OpenAI
+lm-command: "openai-complete.sh"
+engine-min-tokens: 0
+engine-max-tokens: 2048
+engine-whitespace-support: no
+libre-dataset: no
+libre-model: no
+local: no
+defer:
+- code: OpenAI Codex
+- nl: OpenAI Davinci
+- nl-tasks: OpenAI Instruct
+- speed: OpenAI Curie
