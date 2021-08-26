@@ -6,8 +6,8 @@ engine-doc: |+
   prompt may specify, along with a set of
   requirements.
 vendor: various vendors
-# Select the first which satisfies the requirements
-family:
+# Select the first which exists and satisfies the requirements
+engine-family:
 - OpenAI Curie
 - OpenAI Instruct
 - OpenAI Davinci
