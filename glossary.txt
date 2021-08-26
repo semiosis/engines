@@ -1,3 +1,8 @@
+defer
+    An engine will not defer to a different
+    engine unless a defer is specified and the
+    prompt requests it.
+
 layers
     'layers' is like 'provides' but also
     reflects how the model was trained.
