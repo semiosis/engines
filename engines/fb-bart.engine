@@ -4,3 +4,5 @@ model: facebook/bart-large-cnn
 foundation: false
 modes:
 - summarize
+layers:
+- nl summarization
