@@ -1,0 +1,2 @@
+- What makes a LM a foundation LM?
+  - Generality and power

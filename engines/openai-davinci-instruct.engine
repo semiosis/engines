@@ -1,0 +1,17 @@
+engine-title: OpenAI Davinci Instruct
+lm-command: "openai-complete.sh"
+model: davinci-instruct-beta
+foundation: true
+modes:
+- search
+- classification
+specialities:
+- code
+engine-min-tokens: 64
+# 20k?
+engine-whitespace-support: yes
+engine-max-tokens: 2000
+libre-dataset: no
+libre-model: no
+local: no
+upstream-engine: OpenAI Davinci
