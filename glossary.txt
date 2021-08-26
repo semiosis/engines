@@ -1,5 +1,6 @@
 layers
-    'layers' is like 'provides'.
+    'layers' is like 'provides' but also
+    reflects how the model was trained.
 
     It says the layers of training /
     finetuning.
