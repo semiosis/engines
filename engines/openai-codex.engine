@@ -14,3 +14,4 @@ engine-max-tokens: 2000
 libre-dataset: no
 libre-model: no
 local: no
+upstream-engine: OpenAI Davinci
