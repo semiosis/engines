@@ -6,10 +6,7 @@ modes:
 - search
 - classification
 specialities:
-- code
-engine-min-tokens: 64
-engine-whitespace-support: yes
-engine-max-tokens: 1000
+- nl tasks
 libre-dataset: no
 libre-model: no
 local: no

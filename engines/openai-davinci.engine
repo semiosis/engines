@@ -3,7 +3,7 @@ lm-command: "openai-complete.sh"
 model: davinci
 foundation: true
 # modes search?
-engine-min-tokens: 64
+engine-min-tokens: 0
 engine-max-tokens: 2048
 engine-whitespace-support: no
 libre-dataset: no
