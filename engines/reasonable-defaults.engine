@@ -6,7 +6,7 @@ engine-doc: |+
   prompt may specify, along with a set of
   requirements.
 vendor: various vendors
-# Select the first which satisfies the requirements
+# Select the first engine that satisfies the requirements
 engine-family:
 - OpenAI Curie
 - OpenAI Instruct
@@ -17,6 +17,6 @@ defer:
 - nl+code: OpenAI Codex
 - code: OpenAI Codex
 - nl: OpenAI Davinci
-- nl-task: OpenAI Instruct
+- nltask: OpenAI Instruct
 - speed: OpenAI Curie
 fallback: OpenAI

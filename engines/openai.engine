@@ -8,9 +8,14 @@ engine-whitespace-support: no
 libre-dataset: no
 libre-model: no
 local: no
+engine-family:
+- OpenAI Curie
+- OpenAI Instruct
+- OpenAI Davinci
+- OpenAI Codex
 defer:
 - code: OpenAI Codex
 - nl: OpenAI Davinci
-- nl-task: OpenAI Instruct
+- nltask: OpenAI Instruct
 - speed: OpenAI Curie
 fallback: AI21

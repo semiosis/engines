@@ -2,7 +2,11 @@ engine-title: OpenAI Davinci
 include: OpenAI
 model: davinci
 foundation: true
-# downstream-engines usually means finetuned (extra training)
+layers:
+- foundation
+- nl
+# downstream-engines usually spiritually descended from
+# or finetuned (extra training)
 downstream-engines:
 - OpenAI Codex
 - OpenAI Davinci Instruct

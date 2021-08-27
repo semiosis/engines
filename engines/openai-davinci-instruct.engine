@@ -5,8 +5,8 @@ foundation: true
 modes:
 - search
 - classification
-specialities:
-- nl tasks
+speciality:
+- nltask
 libre-dataset: no
 libre-model: no
 local: no
