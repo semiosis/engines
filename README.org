@@ -29,6 +29,8 @@ template. This is done by supplying the
 
 + downstream-engines: Usually means finetuned (extra training).
 
+** layers vs specialties vs requirements
+
 * Philosophy
 - When defining attributes of engines it's
   important to not value preciseness over
