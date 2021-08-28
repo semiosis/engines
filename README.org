@@ -1,5 +1,5 @@
 * Engines
-This is a free and open-source (FOSS) curation of LM models and APIs, their
+This is a free and open-source (FOSS) curation of LMs (language models) and APIs, their
 capabilities and relationships, and logic to select the appropriate engine for
 a prompt based on that prompt's requirements.
 
