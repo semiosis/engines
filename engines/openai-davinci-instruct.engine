@@ -5,7 +5,7 @@ foundation: true
 modes:
 - search
 - classification
-speciality:
+specialities:
 - nltask
 libre-dataset: no
 libre-model: no

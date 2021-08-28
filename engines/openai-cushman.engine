@@ -9,7 +9,7 @@ modes:
 # Pick when you want 'just' Code
 # Therefore, it would override Codex when nl
 # is not required
-speciality:
+specialities:
 - code
 layers:
 - code
