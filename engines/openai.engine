@@ -14,8 +14,10 @@ engine-family:
 - OpenAI Davinci
 - OpenAI Codex
 defer:
-- code: OpenAI Codex
+- nl+code: OpenAI Codex
+- code: OpenAI Cushman
 - nl: OpenAI Davinci
 - nltask: OpenAI Instruct
 - speed: OpenAI Curie
-fallback: AI21
+fallbacks:
+- AI21

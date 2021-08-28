@@ -1,8 +1,8 @@
 engine-title: Reasonable defaults
 engine-doc: |+
   This is not intended to be hard preference
-  for Pen.el that always delegates engines to
-  prompts. Rather, it's a good go-to that a
+  for Pen.el that is always used [to delegate engines to
+  prompts]. Rather, it's a good go-to that a
   prompt may specify, along with a set of
   requirements.
 vendor: various vendors
@@ -19,4 +19,8 @@ defer:
 - nl: OpenAI Davinci
 - nltask: OpenAI Instruct
 - speed: OpenAI Curie
-fallback: OpenAI
+# If a model is not resolved (e.g. all are
+# unavailable) then try these in order:
+fallbacks:
+- OpenAI
+- AI21

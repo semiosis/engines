@@ -18,3 +18,8 @@ engine-max-tokens: 4096
 libre-dataset: no
 libre-model: no
 local: no
+# If the model is not available
+# then try these in order:
+fallbacks:
+- OpenAI Codex
+- OpenAI Davinci
