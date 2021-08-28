@@ -2,9 +2,9 @@
 This is a free and open-source (FOSS) curation
 of LM models and their capabilities.
 
-| License | Discord server invite       |
-|---------+-----------------------------|
-| =GPL-3= | https://discord.gg/6wP4MwCM |
+| License | Discord server invite         |
+|---------+-------------------------------|
+| =GPL-3= | https://discord.gg/JwKGbAdNHR |
 
 See the =prompts= repo for detailed documentation.
 
