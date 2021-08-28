@@ -1,6 +1,7 @@
 engine-title: OpenAI Cushman
 include: OpenAI
 model: davinci-cushman
+# foundation may be derived from layers
 foundation: false
 modes:
 - search

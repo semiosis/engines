@@ -1,6 +1,7 @@
 * Engines
-This is a free and open-source (FOSS) curation
-of LM models and their capabilities.
+This is a free and open-source (FOSS) curation of LM models and APIs, their
+capabilities, their relationships logic to select an engine for a prompt based
+on that prompt's requirements.
 
 | License | Discord server invite         |
 |---------+-------------------------------|
