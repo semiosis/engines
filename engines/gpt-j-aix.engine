@@ -1,9 +1,10 @@
 engine-title: AIx GPT-J-6B
 lm-command: "aix-complete.sh"
 model: GPT-J-6B
+default-tokens: 512
+approximate-token-char-length: 2.5
 engine-min-tokens: 64
 engine-max-tokens: 2048
-default-tokens: 512
 engine-whitespace-support: no
 # This is actually bad behaviour on the SAAS's part
 engine-strips-gen-starting-whitespace: yes

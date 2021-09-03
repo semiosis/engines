@@ -2,6 +2,8 @@ vendor: OpenAI
 engine-title: OpenAI
 lm-command: "openai-complete.sh"
 model: davinci
+default-tokens: 256
+approximate-token-char-length: 2.5
 engine-min-tokens: 0
 engine-max-tokens: 2048
 engine-whitespace-support: no
