@@ -3,6 +3,7 @@ include: OpenAI
 model: davinci-codex
 foundation: true
 # For the API
+default-temperature: 0.2
 modes:
 - search
 - classification

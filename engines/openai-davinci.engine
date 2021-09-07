@@ -2,6 +2,7 @@ engine-title: OpenAI Davinci
 include: OpenAI
 model: davinci
 foundation: true
+default-temperature: 0.8
 specialities:
 - foundation
 - nl

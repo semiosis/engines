@@ -1,8 +1,9 @@
 engine-title: OpenAI Cushman
 include: OpenAI
-model: davinci-cushman
+model: cushman-codex
 # foundation may be derived from layers
 foundation: false
+default-temperature: 0.2
 modes:
 - search
 - classification
