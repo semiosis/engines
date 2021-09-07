@@ -16,7 +16,7 @@ layers:
 - code
 engine-min-tokens: 0
 engine-whitespace-support: yes
-engine-max-tokens: 4096
+engine-max-tokens: 2049
 libre-dataset: no
 libre-model: no
 local: no
