@@ -1,6 +1,7 @@
 engine-title: OpenAI Davinci Instruct
 lm-command: "openai-complete.sh"
 model: davinci-instruct-beta
+engine-delimiter: "\"\"\""
 foundation: true
 modes:
 - search
