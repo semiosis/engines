@@ -1,6 +1,8 @@
 engine-title: OpenAI Cushman
 include: OpenAI
 model: cushman-codex
+engine-notes:
+- Almost as capable as davinci-codex, but slightly faster
 # foundation may be derived from layers
 foundation: false
 default-temperature: 0.2
