@@ -25,7 +25,7 @@ engine-delimiter: "###"
 # It actually doesn't do this
 # engine-strips-gen-starting-whitespace: yes
 
-engine-ignores-prompt-trailing-whitespace: yes
+engine-whitespace-support: no
 
 engine-min-generated-tokens: 10
 
