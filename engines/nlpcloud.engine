@@ -16,6 +16,9 @@ model: gpu/gpt-neo-27b
 foundation: true
 libre: true
 
+# newlines are banned
+engine-stop-sequence-validator: sed -z 's/\n/<newline>/g' | grep -vq "<newline>"
+
 engine-min-generated-tokens: 10
 
 # The parameter for repetition penalty. 1.0 means no penalty. Defaults to 1.0.
