@@ -25,6 +25,8 @@ engine-delimiter: "###"
 # It actually doesn't do this
 # engine-strips-gen-starting-whitespace: yes
 
+engine-ignores-prompt-trailing-whitespace: yes
+
 engine-min-generated-tokens: 10
 
 # The parameter for repetition penalty. 1.0 means no penalty. Defaults to 1.0.
