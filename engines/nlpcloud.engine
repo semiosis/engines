@@ -22,7 +22,8 @@ engine-stop-sequence-validator: sed -z 's/\n/<newline>/g' | grep -vq "<newline>"
 # This is also the default stop sequence if the validator fails
 engine-delimiter: "###"
 
-engine-strips-gen-starting-whitespace: yes
+# It actually doesn't do this
+# engine-strips-gen-starting-whitespace: yes
 
 engine-min-generated-tokens: 10
 
