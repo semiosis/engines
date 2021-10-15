@@ -18,7 +18,11 @@ libre: true
 
 # newlines are banned
 engine-stop-sequence-validator: sed -z 's/\n/<newline>/g' | grep -vq "<newline>"
-engine-default-stop-sequence: "###"
+
+# This is also the default stop sequence if the validator fails
+engine-delimiter: "###"
+
+engine-strips-gen-starting-whitespace: yes
 
 engine-min-generated-tokens: 10
 
