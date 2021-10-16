@@ -26,6 +26,8 @@ engine-whitespace-support: no
 
 engine-min-generated-tokens: 10
 
+engine-max-stop-sequence-size: 10
+
 # The parameter for repetition penalty. 1.0 means no penalty. Defaults to 1.0.
 repetition-penalty: 1.0
 
