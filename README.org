@@ -42,3 +42,34 @@ template. This is done by supplying the
 
 * Resources
 + Foundation models :: https://arxiv.org/abs/2108.07258
+
+** Cautionary note
+https://crfm.stanford.edu/2021/10/18/reflections.html
+
+#+BEGIN_SRC text -n :async :results verbatim code
+  Foundation models are neither “foundational”
+  nor the foundations of AI.
+  
+  We deliberately chose “foundation” rather than
+  “foundational”, because we found that
+  “foundational” implied that these models
+  provide fundamental principles in a way that
+  “foundation” does not.
+  
+  For example, we can readily say “shaky
+  foundations”, whereas “shaky and foundational”
+  is unidiomatic.
+  
+  While many people currently find “foundational
+  model” more natural to say, “foundation model”
+  is grammatically a well- formed noun compound
+  (incidentally parallel to “LM”).
+  
+  Further, “foundation” describes the (role of)
+  model and not AI; we neither claim nor believe
+  that foundation models alone are the
+  foundation of AI, but instead note they are
+  “only one component (though an increasingly
+  important component) of an AI system” (see
+  Section 1.2; pg. 7-9).
+#+END_SRC
