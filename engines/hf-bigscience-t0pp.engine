@@ -1,0 +1,26 @@
+# https://api-inference.huggingface.co/docs/python/html/quicktour.html#using-large-models-10-go
+engine-title: bigscience T0pp
+include: HuggingFace
+engine-doc: |+
+    T0* is a series of encoder-decoder models
+    trained on a large set of different tasks
+    specified in NL prompts. We convert
+    numerous English supervised datasets into
+    prompts, each with multiple templates
+    using varying formulations. These prompted
+    datasets allow for benchmarking the
+    ability of a model to perform completely
+    unseen tasks specified in NL. To obtain
+    T0*, we fine-tune a pretrained LM on this
+    multitask mixture covering many different
+    NLP tasks.
+model: bigscience/T0pp
+# engine-min-tokens: 64
+# engine-max-tokens: 2048
+# That's a stretch haha
+foundation: true
+layers:
+- foundation
+libre: true
+engine-links:
+- "https://huggingface.co/bigscience/T0pp"
