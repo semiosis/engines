@@ -41,10 +41,10 @@ template. This is done by supplying the
   foundation model, which it did not.
 
 * Resources
-+ Foundation models :: https://arxiv.org/abs/2108.07258
-
-** Cautionary note
-https://crfm.stanford.edu/2021/10/18/reflections.html
+** Foundation models
+*** A cautionary note
+- https://arxiv.org/abs/2108.07258
+- https://crfm.stanford.edu/2021/10/18/reflections.html
 
 #+BEGIN_SRC text -n :async :results verbatim code
   Foundation models are neither “foundational”
