@@ -4,6 +4,11 @@ include: HuggingFace
 engine-notes:
 - It focuses on the start of the prompt
 - Via the HF inference API, it's deterministic, currently
+- |-
+  Prompts such as pf-very-witty-pick-up-lines-
+  for-a-topic/1 appear to work structurally,
+  but it picks out pickup lines from the
+  prompt instead of invent them.
 engine-doc: |+
     T0* is a series of encoder-decoder models
     trained on a large set of different tasks
