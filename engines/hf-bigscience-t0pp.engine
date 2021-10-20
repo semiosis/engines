@@ -15,6 +15,8 @@ engine-doc: |+
     multitask mixture covering many different
     NLP tasks.
 model: bigscience/T0pp
+engine-whitespace-support: no
+engine-strips-gen-starting-whitespace: yes
 # engine-min-tokens: 64
 # engine-max-tokens: 2048
 # That's a stretch haha
@@ -24,3 +26,11 @@ layers:
 libre: true
 engine-links:
 - "https://huggingface.co/bigscience/T0pp"
+cant-n-complete: true
+envs:
+# This results in a t
+- NO_PARAMETERS: "y"
+- REMOVE_PROMPT_FROM_GEN: "y"
+# This results in a string
+# - NO_PARAMETERS: "Hello"
+repetition-penalty: 1.0
