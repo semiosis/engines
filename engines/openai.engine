@@ -3,6 +3,7 @@ engine-title: OpenAI
 lm-command: "openai-complete.sh"
 model: davinci
 default-tokens: 256
+best-of: 1
 engine-delimiter: "###"
 approximate-token-char-length: 2.5
 engine-min-tokens: 0
