@@ -4,7 +4,7 @@ lm-command: "openai-complete.sh"
 model: davinci
 default-tokens: 256
 best-of: 1
-# zero-ing out the probabilities for anything below the kth token.
+# zero out the probabilities for anything below the kth token.
 top-k: 5
 engine-delimiter: "###"
 approximate-token-char-length: 2.5
