@@ -13,6 +13,9 @@ engine-min-tokens: 0
 engine-max-tokens: 2049
 engine-whitespace-support: no
 
+penalty-includes-prompt: no
+multiplicative-penalty: no
+
 # For other engines, I may have higher collations and fewer completions
 n-collate: 1
 n-completions: 5
@@ -21,15 +24,5 @@ libre-dataset: no
 libre-model: no
 local: no
 engine-family:
-- AlephAlpha Curie
-- AlephAlpha Instruct
-- AlephAlpha Davinci
-- AlephAlpha Codex
-defer:
-- nl+code: AlephAlpha Codex
-- code: AlephAlpha Cushman
-- nl: AlephAlpha Davinci
-- nltask: AlephAlpha Instruct
-- speed: AlephAlpha Curie
-fallbacks:
-- AI21
+- AlephAlpha EUTranMultimodal
+- AlephAlpha gpt-neo-27b
