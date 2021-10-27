@@ -1,0 +1,35 @@
+vendor: AlephAlpha
+engine-title: AlephAlpha
+lm-command: "alephalpha-complete.sh"
+notes: "אα"
+model: davinci
+default-tokens: 256
+best-of: 1
+# zero out the probabilities for anything below the kth token.
+top-k: 5
+engine-delimiter: "###"
+approximate-token-char-length: 2.5
+engine-min-tokens: 0
+engine-max-tokens: 2049
+engine-whitespace-support: no
+
+# For other engines, I may have higher collations and fewer completions
+n-collate: 1
+n-completions: 5
+
+libre-dataset: no
+libre-model: no
+local: no
+engine-family:
+- AlephAlpha Curie
+- AlephAlpha Instruct
+- AlephAlpha Davinci
+- AlephAlpha Codex
+defer:
+- nl+code: AlephAlpha Codex
+- code: AlephAlpha Cushman
+- nl: AlephAlpha Davinci
+- nltask: AlephAlpha Instruct
+- speed: AlephAlpha Curie
+fallbacks:
+- AI21
