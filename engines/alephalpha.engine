@@ -7,6 +7,7 @@ default-tokens: 64
 best-of: 1
 # zero out the probabilities for anything below the kth token.
 top-k: 5
+api-endpoint: "https://api.aleph-alpha.de"
 engine-delimiter: "###"
 approximate-token-char-length: 2.5
 engine-min-tokens: 0
