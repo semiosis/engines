@@ -2,7 +2,7 @@ vendor: AlephAlpha
 engine-title: AlephAlpha
 lm-command: "alephalpha-complete.sh"
 notes: "אα"
-model: davinci
+model: EleutherAI/gpt-neo-2.7B
 default-tokens: 64
 best-of: 1
 # zero out the probabilities for anything below the kth token.
