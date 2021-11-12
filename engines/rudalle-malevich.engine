@@ -3,6 +3,4 @@ lm-command: "hf-complete.sh"
 model: sberbank-ai/rudalle-Malevich
 foundation: false
 modes:
-- summarize
-layers:
-- nl summarization
+- text-to-image
