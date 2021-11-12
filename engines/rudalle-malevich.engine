@@ -3,4 +3,4 @@ lm-command: "hf-complete.sh"
 model: sberbank-ai/rudalle-Malevich
 foundation: false
 modes:
-  - text2image generation
+- text-to-image
