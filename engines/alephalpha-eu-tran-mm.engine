@@ -1,6 +1,7 @@
 engine-title: AlephAlpha EUTranMM
 include: AlephAlpha
-model: EUTranMultimodal
+# model: EUTranMultimodal
+model: PreviewBetaMultimodal
 foundation: true
 engine-delimiter: "\"\"\""
 # For the API
