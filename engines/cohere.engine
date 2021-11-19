@@ -5,6 +5,7 @@ model: large
 engine-delimiter: "###"
 # TODO Check this value. It may be 0
 # engine-min-tokens: 64
+api-endpoint: "https://api.openai.com"
 default-tokens: 256
 approximate-token-char-length: 2.5
 engine-max-n-completions: 16
