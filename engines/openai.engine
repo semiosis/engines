@@ -16,7 +16,7 @@ engine-whitespace-support: no
 
 # For other engines, I may have higher collations and fewer completions
 n-collate: 1
-n-completions: 5
+# n-completions: 5
 
 libre-dataset: no
 libre-model: no
