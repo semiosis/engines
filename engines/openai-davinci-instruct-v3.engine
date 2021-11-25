@@ -1,0 +1,16 @@
+# pen-openai-list-engines
+
+engine-title: OpenAI Davinci Instruct v3
+lm-command: "openai-complete.sh"
+model: davinci-instruct-beta-v3
+engine-delimiter: "\"\"\""
+foundation: true
+modes:
+- search
+- classification
+specialities:
+- nltask
+libre-dataset: no
+libre-model: no
+local: no
+upstream-engine: OpenAI Davinci
