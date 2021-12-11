@@ -1,12 +1,12 @@
 vendor: Offline
 engine-title: Offline
 lm-command: "offline-complete.sh"
-model: none
+model: DummyModel
 default-tokens: 64
 best-of: 1
 # zero out the probabilities for anything below the kth token.
 top-k: 5
-api-endpoint: "https://api.aleph-alpha.de"
+api-endpoint: "https://localhost"
 engine-delimiter: "###"
 approximate-token-char-length: 2.5
 engine-min-tokens: 0
@@ -35,6 +35,3 @@ n-completions: 5
 libre-dataset: no
 libre-model: no
 local: no
-engine-family:
-- AlephAlpha EUTranMM
-- AlephAlpha gpt-neo-27b
