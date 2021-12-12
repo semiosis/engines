@@ -32,6 +32,6 @@ presence-penalty: 0.0
 n-collate: 1
 n-completions: 5
 
-libre-dataset: no
-libre-model: no
-local: no
+libre-dataset: yes
+libre-model: yes
+local: yes
