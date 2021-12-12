@@ -1,9 +1,8 @@
 engine-title: Human
 include: Offline
-# model: EUTranMultimodal
 model: DummyModel
 foundation: true
-engine-delimiter: "\"\"\""
+engine-delimiter: "\n\n"
 # For the API
 default-temperature: 0.0
 modes:
@@ -25,7 +24,4 @@ specialities:
 engine-min-tokens: 0
 engine-whitespace-support: yes
 engine-max-tokens: 2048
-libre-dataset: no
-libre-model: no
-local: no
-upstream-engine: AlephAlpha gpt-neo-27b
+upstream-engine: Offline
