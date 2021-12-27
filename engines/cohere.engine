@@ -4,6 +4,7 @@ engine-title: Cohere
 lm-command: "cohere-complete.sh"
 model: large
 engine-delimiter: "###"
+# engine-delimiter: "--SEPARATOR--"
 # TODO Check this value. It may be 0
 # engine-min-tokens: 64
 api-endpoint: "https://api.cohere.ai"
