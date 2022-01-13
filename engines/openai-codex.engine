@@ -21,6 +21,7 @@ specialities:
 engine-min-tokens: 0
 engine-whitespace-support: yes
 engine-max-tokens: 4096
+rate-limit-requests-per-min: 20
 libre-dataset: no
 libre-model: no
 local: no
