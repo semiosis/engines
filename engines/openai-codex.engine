@@ -1,4 +1,4 @@
-lengine-title: OpenAI Codex
+engine-title: OpenAI Codex
 include: OpenAI
 model: davinci-codex
 foundation: true
