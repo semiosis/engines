@@ -3,7 +3,7 @@ engine-title: Proxy
 # I will need to change some things like api-endpoint dynamically
 include: Offline
 model: DummyModel
-api-endpoint: "https://localhost"
+api-endpoint: "http://localhost"
 foundation: true
 lm-command: "proxy-complete.sh"
 engine-delimiter: "\n\n"
