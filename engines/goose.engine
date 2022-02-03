@@ -18,6 +18,3 @@ foundation: true
 libre-dataset: no
 libre-model: no
 local: no
-defer:
-- code: OpenAI Codex
-- speed: OpenAI Curie
