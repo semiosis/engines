@@ -14,7 +14,7 @@ approximate-token-char-length: 2.5
 engine-max-n-completions: 1
 engine-max-tokens: 2048
 engine-max-generated-tokens: 256
-engine-whitespace-support: no
+engine-whitespace-support: yes
 foundation: true
 libre-dataset: yes
 libre-model: yes
