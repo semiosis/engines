@@ -11,7 +11,7 @@ api-endpoint: "https://api.goose.ai"
 default-tokens: 256
 approximate-token-char-length: 2.5
 # Currently only 1 supported
-# engine-max-n-completions: 1
+engine-max-n-completions: 1
 engine-max-n-completions: 5
 engine-max-tokens: 2048
 engine-max-generated-tokens: 256
