@@ -15,6 +15,6 @@ engine-max-tokens: 2048
 engine-max-generated-tokens: 256
 engine-whitespace-support: no
 foundation: true
-libre-dataset: no
-libre-model: no
+libre-dataset: yes
+libre-model: yes
 local: no
