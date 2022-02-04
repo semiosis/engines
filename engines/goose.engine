@@ -1,4 +1,3 @@
-# see: /usr/local/lib/python3.8/dist-packages/goose/__init__.py
 vendor: Goose
 engine-title: Goose
 lm-command: "goose-complete.sh"
