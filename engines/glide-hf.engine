@@ -1,6 +1,6 @@
-engine-title: GLIDE
-include: Offline
-model: DummyModel
+engine-title: HF GLIDE
+include: HuggingFace
+model: valhalla/glide-text2im
 foundation: false
 lm-command: "glide-complete.sh"
 engine-delimiter: "\n\n"

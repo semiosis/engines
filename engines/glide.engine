@@ -1,4 +1,4 @@
-engine-title: HF GLIDE
+engine-title: GLIDE
 include: Offline
 model: DummyModel
 foundation: false
