@@ -2,7 +2,7 @@ engine-title: HF GLIDE
 include: HuggingFace
 model: valhalla/glide-text2im
 foundation: false
-lm-command: "glide-complete.sh"
+lm-command: "pen-hf-spaces.sh"
 engine-delimiter: "\n\n"
 # For the API
 default-temperature: 0.0
