@@ -1,6 +1,6 @@
 engine-title: OpenAI Davinci Text
 include: OpenAI
-model: text-davinci-001
+model: text-davinci-002
 # model: davinci
 foundation: true
 default-temperature: 0.8
